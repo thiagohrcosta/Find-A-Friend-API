@@ -7,7 +7,7 @@
 [ ] It should be possible to log in as an organization (ORG). <br>
 
 ### Business Rules
-[ ] To list pets, it is mandatory to provide the city.
+[ ] To list pets, it is mandatory to provide the city. <br>
 [ ] An organization (ORG) needs to have an address and a WhatsApp number. <br>
 [ ] A pet must be linked to an organization (ORG). <br>
 [ ] The user who wants to adopt will contact the organization (ORG) via WhatsApp. <br>
