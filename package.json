@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.24.3"
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20.8.8",
