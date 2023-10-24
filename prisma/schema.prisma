@@ -11,11 +11,12 @@ datasource db {
 }
 
 model User {
-  id       String     @id @default(uuid())
-  name     String
-  email    String     @unique
-  Company  Company[]
-  Adoption Adoption[]
+  id            String     @id @default(uuid())
+  name          String
+  email         String     @unique
+  password_hash String
+  Company       Company[]
+  Adoption      Adoption[]
 
   @@map("users")
 }
