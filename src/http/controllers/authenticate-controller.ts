@@ -35,6 +35,7 @@ export async function authenticate(request: FastifyRequest, reply: FastifyReply)
 
     return reply.status(200).send({
       token,
+      user
     })
   } catch (err) {
     if (err instanceof UserAlreadyExistsError) {
