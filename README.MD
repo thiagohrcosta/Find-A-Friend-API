@@ -72,7 +72,7 @@ For environment configuration, you can create a `.env.example` file. Below is an
 
 ### Application Rules
 
-[ ] It should be possible to register a pet.<br>
+[X] It should be possible to register a pet.<br>
 
 [ ] It should be possible to list all pets available for adoption in a city. <br>
 
@@ -82,7 +82,7 @@ For environment configuration, you can create a `.env.example` file. Below is an
 
 [X] It should be possible to register as an organization (ORG). <br>
 
-[ ] It should be possible to log in as an organization (ORG). <br>
+[X] It should be possible to log in as an organization (ORG). <br>
 
 ### Business Rules
 
