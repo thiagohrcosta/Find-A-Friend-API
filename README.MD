@@ -97,3 +97,9 @@ For environment configuration, you can create a `.env.example` file. Below is an
 [ ] All filters, apart from the city, are optional. <br>
 
 [ ] For an organization (ORG) to access the application as an admin, they need to be logged in. <br>
+
+## How to run this project
+
+Prisma
+npx prisma generate
+npx prisma migrate dev
