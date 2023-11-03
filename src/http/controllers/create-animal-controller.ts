@@ -13,10 +13,12 @@ export async function createAnimal (request: FastifyRequest, reply: FastifyReply
     companyId: z.string()
   })
 
-  const { name, age, independency, description, size, energy } = createAnimalSchema.parse(request.body)
+  const { name, age, independency, description, size, energy, companyId } = createAnimalSchema.parse(request.body)
   
   try {
     const registerUseCase = MakeCreateAnimalUseCase()
+
+    console.log(request.body)
 
     await registerUseCase.execute({
       name,

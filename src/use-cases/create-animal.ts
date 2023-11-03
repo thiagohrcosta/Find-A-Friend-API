@@ -39,7 +39,7 @@ export class CreateAnimalUseCase {
       independency,
       description,
       size,
-      energy
+      energy,
       companyId
     })
 
