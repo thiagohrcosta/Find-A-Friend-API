@@ -78,7 +78,7 @@ For environment configuration, you can create a `.env.example` file. Below is an
 
 [ ] It should be possible to filter pets by their characteristics. <br>
 
-[ ] It should be possible to view details of a pet for adoption. <br>
+[X] It should be possible to view details of a pet for adoption. <br>
 
 [X] It should be possible to register as an organization (ORG). <br>
 
@@ -90,7 +90,7 @@ For environment configuration, you can create a `.env.example` file. Below is an
 
 [X] An organization (ORG) needs to have an address and a WhatsApp number. <br>
 
-[ ] A pet must be linked to an organization (ORG). <br>
+[X] A pet must be linked to an organization (ORG). <br>
 
 [ ] The user who wants to adopt will contact the organization (ORG) via WhatsApp. <br>
 
