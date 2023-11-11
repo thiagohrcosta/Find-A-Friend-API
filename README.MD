@@ -76,7 +76,7 @@ For environment configuration, you can create a `.env.example` file. Below is an
 
 [X] It should be possible to list all pets available for adoption in a city. <br>
 
-[ ] It should be possible to filter pets by their characteristics. <br>
+[X] It should be possible to filter pets by their characteristics. <br>
 
 [X] It should be possible to view details of a pet for adoption. <br>
 
@@ -92,11 +92,11 @@ For environment configuration, you can create a `.env.example` file. Below is an
 
 [X] A pet must be linked to an organization (ORG). <br>
 
-[ ] The user who wants to adopt will contact the organization (ORG) via WhatsApp. <br>
+[X] The user who wants to adopt will contact the organization (ORG) via WhatsApp. <br>
 
-[ ] All filters, apart from the city, are optional. <br>
+[X] All filters, apart from the city, are optional. <br>
 
-[ ] For an organization (ORG) to access the application as an admin, they need to be logged in. <br>
+[X] For an organization (ORG) to access the application as an admin, they need to be logged in. <br>
 
 ## How to run this project
 
