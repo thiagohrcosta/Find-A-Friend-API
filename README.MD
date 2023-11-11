@@ -8,6 +8,8 @@
 
 The Find a Friend API is a Node.js and TypeScript-based project developed as part of the Rocketseat NodeJS course. Its primary goal is to provide a robust RESTful API with full CRUD operations, user authentication via JWT, and containerization using Docker.  
 
+The Frontend version it's on the following link: [Find A Friend Web](https://github.com/thiagohrcosta/Find-A-Friend-Web)
+
 ### Key Technologies
 
 -  **NodeJS**: The project leverages Node.js for building a high-performance, event-driven server.
@@ -69,6 +71,7 @@ For environment configuration, you can create a `.env.example` file. Below is an
 ### Fastify JWT
 
 - [Fastify JWT documentation](https://github.com/fastify/fastify-jwt)
+- [Fastify Cors](https://github.com/fastify/fastify-cors)
 
 ### Application Rules
 
