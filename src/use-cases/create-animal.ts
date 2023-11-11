@@ -10,6 +10,7 @@ interface CreateAnimaUseCaseRequest {
   description: string,
   size: string,
   energy: number,
+  photo: string,
   companyId: string
 }
 
@@ -28,6 +29,7 @@ export class CreateAnimalUseCase {
     description,
     size,
     energy,
+    photo,
     companyId
   }: CreateAnimaUseCaseRequest): Promise<CreateAnimalUseCaseResponse> {
   
@@ -40,6 +42,7 @@ export class CreateAnimalUseCase {
       description,
       size,
       energy,
+      photo,
       companyId
     })
 

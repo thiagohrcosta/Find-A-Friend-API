@@ -10,10 +10,11 @@ export async function createAnimal (request: FastifyRequest, reply: FastifyReply
     description: z.string(),
     size: z.string(),
     energy: z.number(),
+    photo: z.string(),
     companyId: z.string()
   })
 
-  const { name, age, independency, description, size, energy, companyId } = createAnimalSchema.parse(request.body)
+  const { name, age, independency, description, size, energy, photo, companyId } = createAnimalSchema.parse(request.body)
   
   try {
     const registerUseCase = MakeCreateAnimalUseCase()
@@ -27,6 +28,7 @@ export async function createAnimal (request: FastifyRequest, reply: FastifyReply
       description,
       size,
       energy,
+      photo,
       companyId
     })
   } catch (err) {
