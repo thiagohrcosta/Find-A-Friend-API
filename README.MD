@@ -74,7 +74,7 @@ For environment configuration, you can create a `.env.example` file. Below is an
 
 [X] It should be possible to register a pet.<br>
 
-[ ] It should be possible to list all pets available for adoption in a city. <br>
+[X] It should be possible to list all pets available for adoption in a city. <br>
 
 [ ] It should be possible to filter pets by their characteristics. <br>
 
@@ -86,7 +86,7 @@ For environment configuration, you can create a `.env.example` file. Below is an
 
 ### Business Rules
 
-[ ] To list pets, it is mandatory to provide the city. <br>
+[X] To list pets, it is mandatory to provide the city. <br>
 
 [X] An organization (ORG) needs to have an address and a WhatsApp number. <br>
 
