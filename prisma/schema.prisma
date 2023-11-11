@@ -46,6 +46,7 @@ model Animal {
   description  String
   size         String
   energy       Int
+  photo        String?
   companyId    String?
   company      Company?   @relation(fields: [companyId], references: [id])
   Adoption     Adoption[]
