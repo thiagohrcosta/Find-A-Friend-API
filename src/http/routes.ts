@@ -6,6 +6,7 @@ import { verifyJwt } from "./middlewares/verify-jwt";
 import { createAnimal } from "./controllers/create-animal-controller";
 import { getAnimal } from "./controllers/get-animal-controller";
 import { getAnimalsByCity } from "./controllers/get-animals-by-city-controller";
+import { getCompaniesByCities } from "./controllers/get-companies-by-cities-controller";
 
 export async function appRoutes(app: FastifyInstance) {
   app.post('/users', register)
@@ -14,6 +15,8 @@ export async function appRoutes(app: FastifyInstance) {
   // app.get('/animals', )
   app.get('/animals/:city', getAnimalsByCity)
   app.get('/animal/:id', getAnimal )
+
+  app.get('/companies/list_of_cities', getCompaniesByCities)
 
   /** authenticated routes  */
 
