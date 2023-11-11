@@ -14,8 +14,23 @@ export class PrismaAnimalsRepository implements AnimalsRepository{
     return company
   }
 
-  async findAll() {
-    const animals = await prisma.animal.findMany();
+  async findAllByCity(city: string) {
+    const companiesInCity = await prisma.company.findMany({
+      where: {
+        address_city: city,
+      },
+    });
+
+    const companyIds = companiesInCity.map((company) => company.id);
+
+    const animals = await prisma.animal.findMany({
+      where: {
+        companyId: {
+          in: companyIds,
+        },
+      },
+    });
+
     return animals;
   }
   
